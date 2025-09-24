@@ -1,0 +1,52 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cat Body -->
+  <ellipse cx="100" cy="120" rx="40" ry="30" fill="#FF8C42" stroke="#FF6B1A" stroke-width="2"/>
+
+  <!-- Cat Head -->
+  <circle cx="100" cy="70" r="35" fill="#FF8C42" stroke="#FF6B1A" stroke-width="2"/>
+
+  <!-- Cat Ears -->
+  <polygon points="75,45 85,25 95,45" fill="#FF8C42" stroke="#FF6B1A" stroke-width="2"/>
+  <polygon points="105,45 115,25 125,45" fill="#FF8C42" stroke="#FF6B1A" stroke-width="2"/>
+
+  <!-- Inner Ears -->
+  <polygon points="78,42 82,32 86,42" fill="#FFB366"/>
+  <polygon points="114,42 118,32 122,42" fill="#FFB366"/>
+
+  <!-- Cat Eyes -->
+  <ellipse cx="88" cy="65" rx="8" ry="12" fill="#2E8B57"/>
+  <ellipse cx="112" cy="65" rx="8" ry="12" fill="#2E8B57"/>
+
+  <!-- Eye pupils -->
+  <ellipse cx="88" cy="68" rx="3" ry="6" fill="#000"/>
+  <ellipse cx="112" cy="68" rx="3" ry="6" fill="#000"/>
+
+  <!-- Eye shine -->
+  <ellipse cx="90" cy="65" rx="1.5" ry="2" fill="#FFF"/>
+  <ellipse cx="114" cy="65" rx="1.5" ry="2" fill="#FFF"/>
+
+  <!-- Cat Nose -->
+  <polygon points="100,78 95,85 105,85" fill="#FF1493"/>
+
+  <!-- Cat Mouth -->
+  <path d="M 100 85 Q 90 90 85 85" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 100 85 Q 110 90 115 85" stroke="#333" stroke-width="2" fill="none"/>
+
+  <!-- Whiskers -->
+  <line x1="60" y1="75" x2="80" y2="70" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="85" x2="80" y2="80" stroke="#333" stroke-width="2"/>
+  <line x1="120" y1="70" x2="140" y2="75" stroke="#333" stroke-width="2"/>
+  <line x1="120" y1="80" x2="140" y2="85" stroke="#333" stroke-width="2"/>
+
+  <!-- Cat Paws -->
+  <ellipse cx="80" cy="145" rx="8" ry="12" fill="#FF6B1A"/>
+  <ellipse cx="120" cy="145" rx="8" ry="12" fill="#FF6B1A"/>
+
+  <!-- Cat Tail -->
+  <path d="M 140 120 Q 160 100 150 80 Q 140 60 160 50" stroke="#FF8C42" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- Stripes on body -->
+  <ellipse cx="85" cy="110" rx="15" ry="3" fill="#FF6B1A" opacity="0.7"/>
+  <ellipse cx="115" cy="125" rx="12" ry="3" fill="#FF6B1A" opacity="0.7"/>
+  <ellipse cx="90" cy="135" rx="10" ry="3" fill="#FF6B1A" opacity="0.7"/>
+</svg>
